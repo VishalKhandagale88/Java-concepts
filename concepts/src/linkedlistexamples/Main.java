@@ -1,3 +1,5 @@
+package linkedlistexamples;
+
 import linkedlistexamples.LinkedList;
 
 public class Main {
