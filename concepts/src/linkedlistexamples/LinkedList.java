@@ -7,7 +7,7 @@ public class LinkedList {
         this.head = null;
     }
 
-    void  insert(int data){
+    public void  insert(int data){
         Node newNode = new Node();
         if (head==null){
             head = newNode;
@@ -20,7 +20,7 @@ public class LinkedList {
         }
     }
 
-    void display(){
+    public void display(){
         Node currentNode = head;
         while (currentNode!=null){
             System.out.println(currentNode.data+" ");
