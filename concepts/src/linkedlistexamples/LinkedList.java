@@ -18,7 +18,15 @@ public class LinkedList {
             }
             current.next = newNode;
         }
+    }
 
+    void display(){
+        Node currentNode = head;
+        while (currentNode!=null){
+            System.out.println(currentNode.data+" ");
+            currentNode = currentNode.next;
+        }
+        System.out.println();
     }
 
 }
