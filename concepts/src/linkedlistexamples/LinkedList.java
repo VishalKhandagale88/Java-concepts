@@ -8,7 +8,7 @@ public class LinkedList {
     }
 
     public void  insert(int data){
-        Node newNode = new Node();
+        Node newNode = new Node(data);
         if (head==null){
             head = newNode;
         }else {
