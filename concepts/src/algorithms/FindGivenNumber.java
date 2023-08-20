@@ -12,10 +12,8 @@ public class FindGivenNumber {
     }
     public int maxElement(int[] array ){
         int maxNumber =0 ;
-        for (int j:array){
-            if (array[j]>maxNumber){
-                maxNumber=array[j];
-            }
+        for (int j : array) {
+            maxNumber = j;
         }
         return maxNumber;
     }
