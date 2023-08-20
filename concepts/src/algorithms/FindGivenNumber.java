@@ -1,8 +1,6 @@
 package algorithms;
 
 public class FindGivenNumber {
-
-
     public int printTheNumberDivisibleByGivenNumber(int[] num1 , int n){
         int count=0;
         for (int j : num1) {
@@ -11,5 +9,14 @@ public class FindGivenNumber {
             }
         }
         return count;
+    }
+    public int maxElement(int[] array ){
+        int maxNumber =0 ;
+        for (int j:array){
+            if (array[j]>maxNumber){
+                maxNumber=array[j];
+            }
+        }
+        return maxNumber;
     }
 }
