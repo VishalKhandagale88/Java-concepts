@@ -1,4 +1,4 @@
-package algorithms;
+package programs;
 
 public class FindGivenNumber {
     public int printTheNumberDivisibleByGivenNumber(int[] num1 , int n){
