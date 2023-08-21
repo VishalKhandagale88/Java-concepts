@@ -1,13 +1,10 @@
 package programs;
 
 public class RepeatingNumberInArray {
-    /*Given an array of size N-1 such that it only contains distinct integers in the range of 1 to N. Find the missing element.
-N = 10
-A[] = {6,1,2,8,3,4,7,10,5}
-Output: 9
+    /*
+    * Given an array a of size N which contains elements from 0 to N-1, you need to find all the elements occurring more than once in the given array. Return the answer in ascending order. If no such element is found, return list containing [-1].
 
-N = 10
-A[] = {6,1,2,8,3,4,7,10,5}
-Output: 9
+      Note: The extra space is only for the array to be returned. Try and perform all operations within the provided array.
+    *
     * */
 }
