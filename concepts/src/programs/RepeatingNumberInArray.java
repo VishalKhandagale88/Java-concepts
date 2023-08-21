@@ -24,4 +24,16 @@ There is no repeating element in the array. Therefore output is -1.
     * */
 
     // hint 1 : Try to use the given array as a hash table.
+
+    /*
+    * 1- Traverse the given array from i= 0 to n-1 elements
+     Go to index arr[i]%n and increment its value by n.
+2- Now traverse the array again and print all those
+   elements at indexes i for which arr[i]/n is greater
+   than 1.
+
+This approach works because all elements are in range
+from 0 to n-1 and arr[i]/n would be greater than 1
+only if a value "i" has appeared more than once.
+    * */
 }
