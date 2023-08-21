@@ -20,7 +20,7 @@ a[] = {0,3,1,2}
 Output:
 -1
 Explanation:
-There is no repeating element in the array. Therefore output is -1.
+There is no repeating element in the array. There fore output is -1.
     * */
 
     // hint 1 : Try to use the given array as a hash table.
