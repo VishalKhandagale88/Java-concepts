@@ -22,4 +22,6 @@ Output:
 Explanation:
 There is no repeating element in the array. Therefore output is -1.
     * */
+
+    // hint 1 : Try to use the given array as a hash table.
 }
