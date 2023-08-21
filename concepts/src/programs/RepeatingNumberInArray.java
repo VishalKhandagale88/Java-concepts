@@ -6,5 +6,20 @@ public class RepeatingNumberInArray {
 
       Note: The extra space is only for the array to be returned. Try and perform all operations within the provided array.
     *
+* N = 5
+a[] = {2,3,1,2,3}
+Output:
+2 3
+Explanation:
+2 and 3 occur more than once in the given array.
+*
+*
+* Input:
+N = 4
+a[] = {0,3,1,2}
+Output:
+-1
+Explanation:
+There is no repeating element in the array. Therefore output is -1.
     * */
 }
