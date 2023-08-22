@@ -41,7 +41,7 @@ public class RepeatingNumberInArray {
 
     public static void main(String[] args) {
         int[] array =  {2,3,1,3,2};
-        int n = array.length;;
+        int n = array.length;
         for (int i=0;i<n;i++){
             int index = array[i]%n;
             array[index]+=n;
