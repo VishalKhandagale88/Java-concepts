@@ -77,7 +77,7 @@ public class RepeatingNumberInArray {
         }
         ArrayList<Integer> arrayList = new ArrayList<>();
         for (Map.Entry<Integer,Integer> entry : map.entrySet() ){
-            if (entry.getKey()>1){
+            if (entry.getValue()>1){
                 arrayList.add(entry.getKey());
             }
         }
