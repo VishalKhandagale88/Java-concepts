@@ -1,5 +1,7 @@
 package programs;
 
+import java.util.ArrayList;
+
 public class RepeatingNumberInArray {
     /*
     * Given an array a of size N which contains elements from 0 to N-1, you need to find all the elements occurring more than once in the given array. Return the answer in ascending order. If no such element is found, return list containing [-1].
@@ -36,6 +38,24 @@ public class RepeatingNumberInArray {
     * */
 
     public static void main(String[] args) {
+        int[] array =  {2,3,1,3,2};
+        int n = array.length;;
+        for (int i=0;i<n;i++){
+            int index = array[i]%n;
+            array[index]+=n;
+        }
+        int flag = 0;
+        ArrayList<Integer> ans = new ArrayList<>();
+        for (int i=0;i<n;i++){
+            if ((array[i]/n)>1){
+                ans.add(i);
+                flag=1;
+            }
+        }
+        if (flag==0){
+            ans.add(-1);
+        }
+        System.out.println(ans);
 
     }
 }
