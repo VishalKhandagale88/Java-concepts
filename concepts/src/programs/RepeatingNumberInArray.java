@@ -1,6 +1,10 @@
 package programs;
 
+import javax.swing.*;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class RepeatingNumberInArray {
     /*
@@ -40,7 +44,11 @@ public class RepeatingNumberInArray {
     * */
 
     public static void main(String[] args) {
+
+
         int[] array =  {2,3,1,3,2};
+        RepeatingNumberInArray.usingMap(array);
+
         int n = array.length;
         for (int i=0;i<n;i++){
             int index = array[i]%n;
@@ -58,6 +66,23 @@ public class RepeatingNumberInArray {
             ans.add(-1);
         }
         System.out.println(ans);
+    }
 
+    public  static void usingMap(int[] array){
+        Map<Integer,Integer> map = new HashMap<>();
+        for (Integer i : array){
+            if (map.containsKey(i)){
+                map.put(i,map.get(i)+1);
+            }else{
+                map.put(i,1);
+            }
+        }
+        ArrayList<Integer> arrayList = new ArrayList<>();
+        for (Map.Entry<Integer,Integer> entry : map.entrySet() ){
+            if (entry.getKey()>1){
+                arrayList.add(entry.getKey());
+            }
+        }
+        System.out.println(arrayList);
     }
 }
