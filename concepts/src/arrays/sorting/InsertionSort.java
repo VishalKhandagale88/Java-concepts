@@ -30,7 +30,7 @@ public class InsertionSort {
             int key = array[i];
             int j = i-1;
             while (j>=0 && array[j]>key){
-                array[j+1] = key;
+                array[j+1] = array[j];
                 j--;
             }
             array[j+1] = key;
@@ -44,3 +44,23 @@ public class InsertionSort {
         }
     }
 }
+/*
+* The time complexity of the Insertion Sort algorithm is O(n^2) in the average and worst cases and O(n) in the best case.
+
+Here's a breakdown of the time complexities based on different cases:
+
+1. **Best Case (Sorted Input):**
+   - When the array is already sorted, the inner while loop doesn't execute as often.
+   - The inner loop only iterates over elements that are greater than the current element being considered.
+   - This results in a time complexity of O(n), where n is the number of elements.
+
+2. **Average and Worst Cases (Unsorted Input):**
+   - In these cases, the inner while loop may execute more often as elements need to be shifted.
+   - On average, each element might need to be shifted about half of the sorted portion, leading to a quadratic time complexity.
+   - The average and worst case time complexity is O(n^2), where n is the number of elements.
+
+Insertion Sort can be efficient for small input sizes or nearly sorted data, but its quadratic time complexity makes it less suitable for
+large datasets. There are sorting algorithms like Merge Sort and Quick Sort that offer better average and worst-case time complexities,
+making them more efficient for larger datasets.
+*
+* */
