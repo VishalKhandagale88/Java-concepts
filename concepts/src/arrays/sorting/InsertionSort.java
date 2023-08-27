@@ -19,7 +19,8 @@ public class InsertionSort {
             array[i] = sc.nextInt();
         }
         InsertionSort insertionSort = new InsertionSort();
-        insertionSort.insertionSort(array);
+        int[] insertionSortArray = insertionSort.insertionSort(array);
+        printArray(insertionSortArray);
 
     }
     public int[] insertionSort(int[] array){
@@ -34,5 +35,11 @@ public class InsertionSort {
             array[j+1] = key;
         }
         return array;
+    }
+
+    public static void printArray(int[] array){
+        for (int k : array){
+            System.out.println(k+" ");
+        }
     }
 }
