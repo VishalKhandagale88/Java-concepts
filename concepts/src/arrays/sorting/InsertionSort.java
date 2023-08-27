@@ -16,6 +16,7 @@ public class InsertionSort {
 
         int n = array.length;
         for (int i=0;i<n;i++){
+            System.out.print("Enter the values ");
             array[i] = sc.nextInt();
         }
         InsertionSort insertionSort = new InsertionSort();
@@ -29,7 +30,7 @@ public class InsertionSort {
             int key = array[i];
             int j = i-1;
             while (j>=0 && array[j]>key){
-                array[i+1] = key;
+                array[j+1] = key;
                 j--;
             }
             array[j+1] = key;
@@ -39,7 +40,7 @@ public class InsertionSort {
 
     public static void printArray(int[] array){
         for (int k : array){
-            System.out.println(k+" ");
+            System.out.print(k+" ");
         }
     }
 }
