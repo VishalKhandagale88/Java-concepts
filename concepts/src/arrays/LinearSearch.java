@@ -15,12 +15,18 @@ public class LinearSearch {
         }
         System.out.println("Enter the target value");
         int target = sc.nextInt();
-        LinearSearch.linearSearch(array,target);
+        int searchedNumber = LinearSearch.linearSearch(array, target);
+        System.out.println(searchedNumber);
     }
 
-    public  static void linearSearch(int[]array,int target){
+    public  static int linearSearch(int[]array,int target){
         int n = array.length;
-
+        for (int i=0;i<n;i++){
+            if (array[i]==target){
+                return array[i];
+            }
+        }
+        return -1;
     }
 
 
