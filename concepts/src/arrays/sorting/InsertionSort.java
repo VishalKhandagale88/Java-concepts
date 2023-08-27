@@ -7,8 +7,10 @@ public class InsertionSort {
 
     }
 
-    public static void arrayInput(int[] array){
+    public static void arrayInput(int size){
         Scanner sc = new Scanner(System.in);
+        int[] array = new int[size];
+
         int n = array.length;
         for (int i=0;i<n;i++){
             array[i] = sc.nextInt();
