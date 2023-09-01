@@ -5,4 +5,8 @@ public class SubArray {
 
     }
 
+    public static void formSubArray(int[] array , int startingIndex , int endingIndex){
+
+    }
+
 }
