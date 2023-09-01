@@ -10,11 +10,12 @@ public class BruteForceMaxSubArray {
     public static int bruteforce(int[] arr){
         int n = arr.length;
         int maxSum = Integer.MIN_VALUE;
-        int currentValue =0 ;
+
         for (int i=0;i<n;i++){
+            int currentValue =0 ;
             for (int j=i;j<n;j++){
-                currentValue+=arr[i];
-                maxSum = Math.max(currentValue,maxSum);
+                currentValue+=arr[j];
+                maxSum = Math.max(maxSum,currentValue);
             }
         }
         return maxSum;
