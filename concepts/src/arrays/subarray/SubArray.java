@@ -10,9 +10,7 @@ public class SubArray {
     }
 
     public static int[] formSubArray(int[] array , int startingIndex , int endingIndex){
-        int n = array.length;
         int[]  subArray = new int[(endingIndex-startingIndex)];
-        System.out.println(subArray.length);
         int subArrayIndex = 0;
         for (int i=startingIndex;i<endingIndex;i++){
             subArray[subArrayIndex] = array[i];
