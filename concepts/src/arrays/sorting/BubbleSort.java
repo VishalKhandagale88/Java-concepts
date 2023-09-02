@@ -16,6 +16,7 @@ public class BubbleSort {
                     int temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
+                    swapped=true;
                 }
             }
             if (!swapped){
@@ -28,7 +29,7 @@ public class BubbleSort {
     public static void printArray(int[] arr){
         int n = arr.length;
         for (int i=0;i<n;i++){
-            System.out.println(arr[i]+" ");
+            System.out.print(arr[i]+" ");
         }
 
     }
