@@ -5,7 +5,7 @@ public class SelectionSort {
 
     }
 
-    public  static   int[] insertionSort(int arr[]){
+    public  static   int[] selectionSort(int arr[]){
         return arr;
     }
 }
