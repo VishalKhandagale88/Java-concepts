@@ -2,6 +2,9 @@ package arrays.sorting;
 
 public class SelectionSort {
     public static void main(String[] args) {
+        int[] arr = {5,6,3,4,6,10,7,1};
+        int[] selectionSortArray = SelectionSort.selectionSort(arr);
+        SelectionSort.printArray(selectionSortArray);
 
     }
 
@@ -23,4 +26,12 @@ public class SelectionSort {
         }
         return arr;
     }
+
+    public  static  void printArray(int arr[]){
+        int n = arr.length;
+        for (int i=0;i<n;i++){
+            System.out.print(arr[i]+" ");
+        }
+    }
+
 }
