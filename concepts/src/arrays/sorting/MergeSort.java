@@ -10,6 +10,10 @@ public class MergeSort {
         }
     }
 
+    public  static  void  merge(int[] arr, int startingIndex, int middleIndex, int endingIndex){
+
+    }
+
     public static void main(String[] args) {
 
     }
