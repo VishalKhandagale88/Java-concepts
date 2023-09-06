@@ -40,6 +40,11 @@ public class MergeSort {
             i++;
             k++;
         }
+        while (j<lengthOfRightArray){
+            arr[k] = rightArray[j];
+            j++;
+            k++;
+        }
     }
 
     public static void main(String[] args) {
