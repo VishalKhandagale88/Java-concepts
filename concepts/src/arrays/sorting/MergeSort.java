@@ -50,6 +50,7 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] arr = {10,20,34,5,24,4,8,9,0};
         MergeSort.mergeSort(arr,0,arr.length-1);
+        MergeSort.printArray(arr);
 
     }
 
