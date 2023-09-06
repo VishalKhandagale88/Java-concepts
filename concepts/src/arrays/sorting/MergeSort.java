@@ -23,6 +23,17 @@ public class MergeSort {
         for (int i=0;i<lengthOfRightArray;i++){
             rightArray[i] =  arr[middleIndex + i +i];
         }
+        int i=0,j=0,k=startingIndex;
+        while (i<lengthOfLeftArray && j<lengthOfRightArray){
+            if (leftArray[i]<=rightArray[i]){
+                arr[k] = leftArray[i];
+                i++;
+            }else{
+                arr[k] = rightArray[j];
+                j++;
+            }
+            k++;
+        }
     }
 
     public static void main(String[] args) {
