@@ -6,7 +6,7 @@ public class MergeSort {
             int middleIndex = (startingIndex+endingIndex)/2;
             mergeSort(arr,startingIndex,middleIndex);
             mergeSort(arr,middleIndex+1,endingIndex);
-
+            merge(arr,startingIndex,middleIndex,endingIndex);
         }
     }
 
