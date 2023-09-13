@@ -21,11 +21,11 @@ public class MergeSort {
             leftArray[i] =  arr[startingIndex + i];
         }
         for (int i=0;i<lengthOfRightArray;i++){
-            rightArray[i] =  arr[middleIndex + i +i];
+            rightArray[i] =  arr[middleIndex + 1+i ];
         }
         int i=0,j=0,k=startingIndex;
         while (i<lengthOfLeftArray && j<lengthOfRightArray){
-            if (leftArray[i]<=rightArray[i]){
+            if (leftArray[i]<=rightArray[j]){
                 arr[k] = leftArray[i];
                 i++;
             }else{
