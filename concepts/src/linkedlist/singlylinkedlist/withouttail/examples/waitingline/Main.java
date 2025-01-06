@@ -1,4 +1,4 @@
-package linkedlist.singlylinkedlist.withouttail.waitingline;
+package linkedlist.singlylinkedlist.withouttail.examples.waitingline;
 
 public class Main {
 

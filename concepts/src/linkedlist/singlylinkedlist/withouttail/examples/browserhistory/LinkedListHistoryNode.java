@@ -1,4 +1,4 @@
-package linkedlist.singlylinkedlist.withouttail.browserhistory;
+package linkedlist.singlylinkedlist.withouttail.examples.browserhistory;
 
 public class LinkedListHistoryNode {
     HistoryNode head;

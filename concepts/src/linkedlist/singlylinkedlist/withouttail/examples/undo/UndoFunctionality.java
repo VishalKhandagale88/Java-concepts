@@ -1,4 +1,4 @@
-package linkedlist.singlylinkedlist.withouttail.undo;
+package linkedlist.singlylinkedlist.withouttail.examples.undo;
 
 public class UndoFunctionality {
     Node head;

@@ -1,4 +1,4 @@
-package linkedlist.singlylinkedlist.withouttail.undo;
+package linkedlist.singlylinkedlist.withouttail.examples.undo;
 
 public class Main {
     public static void main(String[] args) {

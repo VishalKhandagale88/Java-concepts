@@ -1,4 +1,4 @@
-package linkedlist.singlylinkedlist.withouttail.musicplaylist;
+package linkedlist.singlylinkedlist.withouttail.examples.musicplaylist;
 
 public class SongNode {
     String title;

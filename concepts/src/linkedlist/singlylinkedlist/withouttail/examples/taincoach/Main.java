@@ -1,4 +1,4 @@
-package linkedlist.singlylinkedlist.withouttail.taincoach;
+package linkedlist.singlylinkedlist.withouttail.examples.taincoach;
 
 public class Main {
     public static void main(String[] args) {

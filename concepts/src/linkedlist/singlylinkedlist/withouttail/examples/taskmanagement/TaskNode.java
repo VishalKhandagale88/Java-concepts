@@ -1,4 +1,4 @@
-package linkedlist.singlylinkedlist.withouttail.taskmanagement;
+package linkedlist.singlylinkedlist.withouttail.examples.taskmanagement;
 
 public class TaskNode {
     String taskName;

@@ -1,4 +1,4 @@
-package linkedlist.singlylinkedlist.withouttail.taincoach;
+package linkedlist.singlylinkedlist.withouttail.examples.taincoach;
 
 public class TrainCoachNode {
     int coachNumber;
