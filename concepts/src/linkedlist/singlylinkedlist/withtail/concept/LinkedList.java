@@ -12,6 +12,7 @@ public class LinkedList {
         }
         tail = newNode;
     }
+
     void display(){
         if (head == null) return;
         Node tempNode = head;
