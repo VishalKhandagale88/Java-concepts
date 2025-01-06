@@ -14,7 +14,7 @@ public class OrderQueue {
     }
     public void display(){
         Node tempNode = head;
-        if (tempNode != null){
+        while (tempNode != null){
             System.out.print(tempNode.data+" ---> ");
             tempNode = tempNode.next;
         }
